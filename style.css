@@ -9,8 +9,6 @@ html {
     overflow-x: hidden;
     width: 100%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-
 }
 
 .profile{
@@ -23,13 +21,12 @@ html {
     margin-top: 10%;
     width: 10%;
     border-radius: 50%;
-    
 }
 h2{
     color: #63676C;
     margin-bottom: 20px;
-    
 }
+
 p{
     color: #63676C ;
 }
@@ -52,14 +49,10 @@ a:hover{
     filter: invert(1);
 }
 
-/*  */
-
-
 .button1, .button2, .button3{
     display: inline-block;
     margin: 0px 15px;
 }
-/*  */
 
 .button-image img{
     color: #fff;
@@ -77,12 +70,11 @@ a:hover{
     margin: auto;    
 }
 
-/*  */
-
-
 .buttons{
     margin: 0px 0px 10% 0px;
 }
+
+
 
 /* ABOUT SECTION */
 .about{
@@ -98,6 +90,7 @@ a:hover{
 }
 
 
+
 /* PROJECT SECTION */
 .projects{
     background-color: #edf0f3 ;
@@ -109,7 +102,7 @@ a:hover{
     color: #373a3d;
     padding: 2%;
 }
-.project1, .project2{
+.project1, .project2, .project3, .project4{
     display: inline-block;
     width: 40%;
     border-radius: 10px;
@@ -117,6 +110,7 @@ a:hover{
     padding: 2%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     margin-left: 5%;
+    margin-bottom: 5%;
     background-color: #ffffff;
 }
 .projects a{
@@ -130,13 +124,14 @@ a:hover{
     margin-bottom: 5%;
 }
 
+
 /* GET IN TOUCH SECTION */
 .getintouch{
     background-color: #fdfdfd;
-    text-align: center;
-    width: 100%;
     /* margin: 5%; */
     padding: 5%;
+    text-align: center;
+
 }
 .getintouch p{
     margin: 2%;
@@ -148,6 +143,7 @@ a:hover{
     margin: auto; 
     filter: invert(1);
 }
+
 
 /*FOOTER*/
 footer{
