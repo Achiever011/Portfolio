@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: none;
+}
+html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.profile{
+    position: relative;
+    size: 50%;
+    background-image:linear-gradient(#7ff1cb, #fff);
+    text-align: center;
+} 
+.profile-image{
+    margin-top: 10%;
+    width: 10%;
+    border-radius: 50%;
+    
+}
+h2{
+    color: #63676C;
+    margin-bottom: 20px;
+    
+}
+p{
+    color: #63676C ;
+}
+
+a{
+    width: 100%;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 10px 8px 10px;
+    display: flex;
+    background-color: white;
+    color: #000000;
+    transition: all;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+a:hover{
+    transition: all .5s;
+    transform: scale(1.1);
+    filter: invert(1);
+}
+
+/*  */
+
+
+.button1, .button2, .button3{
+    display: inline-block;
+    margin: 0px 15px;
+}
+/*  */
+
+.button-image img{
+    color: #fff;
+    width: 15px;
+    height: 15px;
+    margin: 0px 15px;
+}
+
+
+/* BUTTON TEXT */
+.button-text p{
+    font-size: 12px;
+    color: #373a3d;
+    display: flex;
+    margin: auto;    
+}
+
+/*  */
+
+
+.buttons{
+    margin: 0px 0px 10% 0px;
+}
+
+/* ABOUT SECTION */
+.about{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.about h1{
+    color: #373a3d;
+    margin-bottom: 3%;
+}
+.about p{
+    margin: 0% 10%;
+}
+
+
+/* PROJECT SECTION */
+.projects{
+    background-color: #edf0f3 ;
+    padding: 5%;
+}
+.projects h1{
+    text-align: center;
+    display: block;
+    color: #373a3d;
+    padding: 2%;
+}
+.project1, .project2{
+    display: inline-block;
+    width: 40%;
+    border-radius: 10px;
+    font-size: small;
+    padding: 2%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-left: 5%;
+    background-color: #ffffff;
+}
+.projects a{
+    width: fit-content;
+    float: left;
+    padding: auto;
+    margin: auto; 
+    filter: invert(1);
+}
+.projects p{
+    margin-bottom: 5%;
+}
+
+/* GET IN TOUCH SECTION */
+.getintouch{
+    background-color: #fdfdfd;
+    text-align: center;
+    width: 100%;
+    /* margin: 5%; */
+    padding: 5%;
+}
+.getintouch p{
+    margin: 2%;
+}
+.getintouch a{
+    width: fit-content;
+    transition: none;
+    padding: auto;
+    margin: auto; 
+    filter: invert(1);
+}
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    padding: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    color: #63676C;
+    font-size: 12px;
+    background-color: #edf0f3;
+}
