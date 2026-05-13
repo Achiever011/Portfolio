@@ -19,8 +19,9 @@ html {
 } 
 .profile-image{
     margin-top: 10%;
-    width: 10%;
+    width: 20%;
     border-radius: 50%;
+    margin-bottom: 2%;
 }
 h2{
     color: #63676C;
@@ -87,6 +88,8 @@ a:hover{
 }
 .about p{
     margin: 0% 10%;
+    font-size: 120%;
+    line-height: 150%;
 }
 
 
@@ -101,6 +104,10 @@ a:hover{
     display: block;
     color: #373a3d;
     padding: 2%;
+}
+
+.projects h2 {
+    font-size: 180%;
 }
 .project1, .project2, .project3, .project4{
     display: inline-block;
@@ -122,6 +129,8 @@ a:hover{
 }
 .projects p{
     margin-bottom: 5%;
+    font-size: 120%;
+    /* line-height: 150%; */
 }
 
 
